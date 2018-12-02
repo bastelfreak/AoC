@@ -32,7 +32,6 @@ namespace AoC02_02
                         char kar = result[i];
                         if ( id.ToCharArray()[i] != result.ToCharArray()[i])
                         {
-                            //string cleanedId = result.Replace(kar.ToString(), "");
                             string cleanedID = result.Remove(i, count: 1);
                             Console.WriteLine(result);
                             Console.WriteLine(id);
